@@ -7,15 +7,33 @@
     <title>Henrique Batista Dias</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body style="background-color: rgb(89, 252, 84);">
-    <section class="bg-success">
+    <header>
+        <nav class="navbar bg-body-tertiary" >
+            <div class="container-fluid" style="background-color: green;">
+                <span class="navbar-text text-light">
+                    Meu site
+                </span>
+                <!-- As a link -->
+                <nav class="navbar bg-body-tertiary" style="background-color: green;">
+                    <div class="container">
+                        <a class="navbar-brand " href="#henrique">Henrique</a>
+                        <a class="navbar-brand" href="#portifolio">Portifólio</a>
+                        <a class="navbar-brand" href="#entrega">Entrega</a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-success" id="henrique">
         <div class="container p-4">
             <div class="row">
                 <div class="col-12 col-md-8">
@@ -23,7 +41,11 @@
                     <h1 class="text-light text-center">Henrique</h1>
                     <div style="text-align: justify;">
                         <p class="text-light" class="col-6">
-                            Meu nome é Henrique Batista Dias, eu me formei no curso técnico de administração na Escola Estadual Liberato de Castro, e agora estou preste a me formar no curso técnico de informática na mesma escola. Eu escolhi fazer esse curso porque muitas coias hoje em dia precisa saber mexer no computador, principalmete no mercado de trabalho, então  eu acho que esse curso me ajudará com isso.
+                            Meu nome é Henrique Batista Dias, eu me formei no curso técnico de administração na Escola
+                            Estadual Liberato de Castro, e agora estou preste a me formar no curso técnico de
+                            informática na mesma escola. Eu escolhi fazer esse curso porque muitas coias hoje em dia
+                            precisa saber mexer no computador, principalmete no mercado de trabalho, então eu acho que
+                            esse curso me ajudará com isso.
                         </p>
                     </div>
                 </div>
@@ -33,7 +55,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-dark text-light my-3">
+    <section class="bg-dark text-light my-3" id="portifolio">
         <div class="text-center">
             <h2 class="fs-1">PORTIFÓLIO</h2>
         </div>
@@ -46,7 +68,9 @@
                     <h3>CARRINHO DE COMPRAS</h3>
                     <div style="text-align: justify;">
                         <p>
-                            No projeto carrinho de compras, fuciona assim: O usuário seleciona a quantidade de produto que deseja, e, assim, o programa multiplica o valor do produto pela qualidade, mostrando o valor total.
+                            No projeto carrinho de compras, fuciona assim: O usuário seleciona a quantidade de produto
+                            que deseja, e, assim, o programa multiplica o valor do produto pela qualidade, mostrando o
+                            valor total.
                         </p>
                     </div>
                 </div>
@@ -57,14 +81,16 @@
                     <h3>COMPRA DE INGRESSO</h3>
                     <div style="text-align: justify;">
                         <p>
-                            No projeto compra de ingresso, funciona da mesma forma que o carrinho de compras, funciona da seguinte forma: O usuário escolhe o tipo de ingresso e a quantidade que deseja comprar, e, assim, o programa multiplica a quantidade pelo preço, mostrando o valor total.
+                            No projeto compra de ingresso, funciona da mesma forma que o carrinho de compras, funciona
+                            da seguinte forma: O usuário escolhe o tipo de ingresso e a quantidade que deseja comprar,
+                            e, assim, o programa multiplica a quantidade pelo preço, mostrando o valor total.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-success text-light">
+    <section class="bg-success text-light" id="entrega">
         <h2 style="text-align: center;" class="fs-1">ENTREGA</h2>
         <div class="row text-center">
             <div class="col-12 col-md-4 p-4 container">
