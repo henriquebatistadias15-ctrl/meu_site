@@ -1,0 +1,6 @@
+@media (max-whidt: 768px) {
+    h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+}
